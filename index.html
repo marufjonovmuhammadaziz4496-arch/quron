@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AZURE ATELIER - Zamonaviy va nafis erkaklar kiyimlari to'plami. Yuqori sifatli futbolkalar, shinam shimlar va klassik kostyumlar.">
+  <title>AZURE ATELIER | Premium Erkaklar Kiyimlari To'plami</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Favicon icon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%233b82f6'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <span class="announcement-badge">Yangi mavsum</span>
+    <span>O'zbekiston bo'ylab 500,000 so'mdan yuqori buyurtmalar uchun bepul yetkazib berish!</span>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="header-main" id="header">
+    <div class="container header-inner">
+      <!-- Logo -->
+      <a href="#" class="brand-logo" id="logoLink">
+        <div class="logo-icon-box">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span>AZURE</span>
+          <span class="logo-sub">ATELIER</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#hero" class="nav-link active">Bosh sahifa</a>
+        <a href="#catalog" class="nav-link">Kolleksiya</a>
+        <a href="#bundle" class="nav-link">Total Look</a>
+        <a href="#specs" class="nav-link">Sifat & Matolar</a>
+        <a href="#reviews" class="nav-link">Sharhlar</a>
+        <a href="#footer" class="nav-link">Aloqa</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- Wishlist -->
+        <button class="action-btn" id="btnWishlist" title="Sevimlilar" aria-label="Wishlist">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+          <span class="action-badge" id="wishlistCount">0</span>
+        </button>
+
+        <!-- Cart -->
+        <button class="action-btn" id="btnCart" title="Savat" aria-label="Shopping Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="action-badge" id="cartCount">0</span>
+        </button>
+
+        <!-- Phone contact -->
+        <a href="tel:+998901234567" class="btn-contact-top">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24 11.72 11.72 0 003.68.59 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.72 11.72 0 00.59 3.68 1 1 0 01-.24 1.02l-2.23 2.09z"/>
+          </svg>
+          <span>Ishonchili va Tezkor</span>
+        </a>
+
+        <!-- Mobile hamburger -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-pill">
+          <span class="dot"></span>
+          <span>Yangi 2026 Erkaklar Kolleksiyasi</span>
+        </div>
+        <h1 class="hero-title">
+          Klassik Nafislik va <span class="gradient-text">Zamonaviy Uslub</span>
+        </h1>
+        <p class="hero-desc">
+          Har bir detalida mukammallik aks etgan premium kiyimlar: sport uchun yengil va elastik futbolkalar, shinam zamonaviy shimlar hamda obro'li klassik kostyumlar. O'zingizga mos uslubni kashf eting.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#catalog" class="btn-primary" id="btnExploreCollection">
+            <span>Kolleksiyani ko'rish</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="#bundle" class="btn-secondary" id="btnExploreBundle">
+            <span>Mukammal Look</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">Asl Yuqori Sifat</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">24 Soat</div>
+            <div class="stat-label">Tezkor Yetkazish</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">15k+</div>
+            <div class="stat-label">Mamnun Xaridorlar</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Showcase -->
+      <div class="hero-showcase">
+        <div class="showcase-card-main">
+          <div class="showcase-glow-bg"></div>
+
+          <!-- Floating Badges -->
+          <div class="floating-badge badge-top-left">
+            <div class="floating-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+              </svg>
+            </div>
+            <div class="floating-info">
+              <h4>Royal Navy Kostyum</h4>
+              <p>100% Tabiiy Jun Gazlama</p>
+            </div>
+          </div>
+
+          <div class="showcase-image-wrapper">
+            <img src="images/suit.png" alt="Royal Navy Klassik Kostyum" id="heroMainImage">
+          </div>
+
+          <div class="floating-badge badge-bottom-right">
+            <div class="floating-icon gold">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+            </div>
+            <div class="floating-info">
+              <h4>Eng Ko'p Sotilgan</h4>
+              <p>⭐⭐⭐⭐⭐ (5.0 Ball)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="benefits-section">
+    <div class="container">
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="1" y="3" width="15" height="13"></rect>
+              <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+              <circle cx="5.5" cy="18.5" r="2.5"></circle>
+              <circle cx="18.5" cy="18.5" r="2.5"></circle>
+            </svg>
+          </div>
+          <div class="benefit-text">
+            <h3>Tezkor Yetkazish</h3>
+            <p>Toshkentda 3 soatda, viloyatlarga 1 kunda</p>
+          </div>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <div class="benefit-text">
+            <h3>100% Sifat Kafolati</h3>
+            <p>Faqat sertifikatlangan asl brend mahsulotlari</p>
+          </div>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+              <line x1="7" y1="7" x2="7.01" y2="7"></line>
+            </svg>
+          </div>
+          <div class="benefit-text">
+            <h3>Kiyib Ko'rish Bepul</h3>
+            <p>Kuryerimiz o'lchab ko'rishingizni kutadi</p>
+          </div>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="5" width="20" height="14" rx="2"></rect>
+              <line x1="2" y1="10" x2="22" y2="10"></line>
+            </svg>
+          </div>
+          <div class="benefit-text">
+            <h3>Qulay To'lov</h3>
+            <p>Payme, Click yoki qabul qilib olgach naqd</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Catalog Section -->
+  <section class="catalog-section" id="catalog">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Yangi to'plam</span>
+        <h2 class="section-title">Tanlangan Erkaklar Kiyimlari</h2>
+        <p class="section-subtitle">
+          Har kungi shinamlikdan tortib muhim uchrashuvlargacha mos keluvchi saralangan modellarimiz bilan tanishing.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">Barchasi (3)</button>
+        <button class="filter-btn" data-filter="sport">Sport & Casual</button>
+        <button class="filter-btn" data-filter="pants">Shimlar</button>
+        <button class="filter-btn" data-filter="suits">Klassik Kostyumlar</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="productsGrid">
+
+        <!-- Product 1: T-Shirt -->
+        <article class="product-card" data-category="sport" id="product-1">
+          <div class="product-image-container">
+            <span class="product-badge badge-new">Yangi</span>
+            <span class="badge-discount">-15%</span>
+            <img src="images/tshirt.png" alt="On Performance Blue T-Shirt" loading="lazy">
+            <div class="product-hover-actions">
+              <button class="quick-action-btn btn-quick-view" data-id="1" title="Tezkor ko'rish" aria-label="Tezkor ko'rish">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </button>
+              <button class="quick-action-btn btn-fav-toggle" data-id="1" title="Sevimlilarga qo'shish" aria-label="Wishlist">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-content">
+            <div class="product-meta-row">
+              <span class="product-category">Sport & Casual</span>
+              <div class="product-rating">
+                ★ 4.9 <span>(128 sharh)</span>
+              </div>
+            </div>
+            <h3 class="product-title">On Performance Sport Futbolkasi</h3>
+            <p class="product-short-desc">
+              Yuqori texnologiyali nafas oluvchi mato, quruqlikni saqlovchi mikrofibra va harakat erkinligi.
+            </p>
+            <div class="product-options-row">
+              <span class="option-label">O'lchamni tanlang:</span>
+              <div class="size-selector" data-product="1">
+                <button class="size-pill">S</button>
+                <button class="size-pill selected">M</button>
+                <button class="size-pill">L</button>
+                <button class="size-pill">XL</button>
+                <button class="size-pill">XXL</button>
+              </div>
+            </div>
+            <div class="product-footer-row">
+              <div class="price-box">
+                <span class="current-price">380,000 UZS</span>
+                <span class="old-price">450,000 UZS</span>
+              </div>
+              <button class="btn-add-cart" data-id="1" data-title="On Performance Sport Futbolkasi" data-price="380000" data-img="images/tshirt.png">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+                <span>Savatga</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 2: Pants -->
+        <article class="product-card" data-category="pants" id="product-2">
+          <div class="product-image-container">
+            <span class="product-badge badge-trend">Top Tanlov</span>
+            <span class="badge-discount">-16%</span>
+            <img src="images/pants.png" alt="Navy Chino Drawstring Shim" loading="lazy">
+            <div class="product-hover-actions">
+              <button class="quick-action-btn btn-quick-view" data-id="2" title="Tezkor ko'rish" aria-label="Tezkor ko'rish">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </button>
+              <button class="quick-action-btn btn-fav-toggle" data-id="2" title="Sevimlilarga qo'shish" aria-label="Wishlist">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-content">
+            <div class="product-meta-row">
+              <span class="product-category">Smart Casual</span>
+              <div class="product-rating">
+                ★ 5.0 <span>(94 sharh)</span>
+              </div>
+            </div>
+            <h3 class="product-title">Navy Chino Drawstring Shim</h3>
+            <p class="product-short-desc">
+              Tabiiy paxta va elastan qorishmasi, sozlanuvchi kamar tasmasi va bejirim qulay bichim.
+            </p>
+            <div class="product-options-row">
+              <span class="option-label">O'lchamni tanlang:</span>
+              <div class="size-selector" data-product="2">
+                <button class="size-pill">30</button>
+                <button class="size-pill selected">32</button>
+                <button class="size-pill">34</button>
+                <button class="size-pill">36</button>
+                <button class="size-pill">38</button>
+              </div>
+            </div>
+            <div class="product-footer-row">
+              <div class="price-box">
+                <span class="current-price">520,000 UZS</span>
+                <span class="old-price">620,000 UZS</span>
+              </div>
+              <button class="btn-add-cart" data-id="2" data-title="Navy Chino Drawstring Shim" data-price="520000" data-img="images/pants.png">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+                <span>Savatga</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Product 3: Suit Blazer -->
+        <article class="product-card" data-category="suits" id="product-3">
+          <div class="product-image-container">
+            <span class="product-badge badge-exclusive">Premium</span>
+            <span class="badge-discount">-20%</span>
+            <img src="images/suit.png" alt="Royal Navy Klassik Kostyum" loading="lazy">
+            <div class="product-hover-actions">
+              <button class="quick-action-btn btn-quick-view" data-id="3" title="Tezkor ko'rish" aria-label="Tezkor ko'rish">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </button>
+              <button class="quick-action-btn btn-fav-toggle" data-id="3" title="Sevimlilarga qo'shish" aria-label="Wishlist">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-content">
+            <div class="product-meta-row">
+              <span class="product-category">Klassik & Rasmiy</span>
+              <div class="product-rating">
+                ★ 5.0 <span>(215 sharh)</span>
+              </div>
+            </div>
+            <h3 class="product-title">Royal Navy Slim-Fit Klassik Kostyum</h3>
+            <p class="product-short-desc">
+              Yuqori sifatli jun gazlama, ro'molchali nishon, qomatga mukammal tushuvchi bichim va shohona astar.
+            </p>
+            <div class="product-options-row">
+              <span class="option-label">O'lchamni tanlang:</span>
+              <div class="size-selector" data-product="3">
+                <button class="size-pill">48</button>
+                <button class="size-pill selected">50</button>
+                <button class="size-pill">52</button>
+                <button class="size-pill">54</button>
+                <button class="size-pill">56</button>
+              </div>
+            </div>
+            <div class="product-footer-row">
+              <div class="price-box">
+                <span class="current-price">1,450,000 UZS</span>
+                <span class="old-price">1,800,000 UZS</span>
+              </div>
+              <button class="btn-add-cart" data-id="3" data-title="Royal Navy Klassik Kostyum" data-price="1450000" data-img="images/suit.png">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+                <span>Savatga</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Complete Match / Bundle Section -->
+  <section class="bundle-section" id="bundle">
+    <div class="container">
+      <div class="bundle-box">
+        <div class="bundle-grid">
+          <div class="bundle-gallery">
+            <div class="bundle-item-thumb">
+              <img src="images/tshirt.png" alt="Futbolka">
+              <span class="thumb-tag">Sport Futbolka</span>
+            </div>
+            <div class="plus-symbol">+</div>
+            <div class="bundle-item-thumb">
+              <img src="images/pants.png" alt="Shim">
+              <span class="thumb-tag">Chino Shim</span>
+            </div>
+            <div class="plus-symbol">+</div>
+            <div class="bundle-item-thumb">
+              <img src="images/suit.png" alt="Kostyum">
+              <span class="thumb-tag">Klassik Kostyum</span>
+            </div>
+          </div>
+
+          <div class="bundle-content">
+            <span class="hero-pill" style="margin-bottom: 12px;">🌟 Eksklyuziv Look</span>
+            <h2>Mukammal Smart-Casual Erkaklar To'plami</h2>
+            <p>
+              Uchala kiyim bir-biriga mukammal uyg'unlashgan. Kostyum, futbolka va shimni birgalikda xarid qiling va maxsus chegirma hamda bepul VIP yetkazish imkoniyatidan foydalaning!
+            </p>
+            <ul class="bundle-checklist">
+              <li>
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                Kundalik va rasmiy uchrashuvlar uchun mos uyg'unlik
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                Sovg'a sifatida maxsus brend g'ilof va kiyim ilgich
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                To'plam bo'yicha 360,000 UZS tejamkorlik
+              </li>
+            </ul>
+
+            <div class="bundle-price-wrap">
+              <div>
+                <span style="font-size: 0.85rem; color: var(--text-muted); text-decoration: line-through; display: block;">2,350,000 UZS</span>
+                <span class="total-price">1,990,000 UZS</span>
+              </div>
+              <span class="save-badge">15% TEJAB QOLING</span>
+            </div>
+
+            <button class="btn-bundle-buy" id="btnBuyBundle">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              <span>Butun To'plamni Xarid Qilish</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specifications & Fabric Details -->
+  <section class="specs-section" id="specs">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Sifat standartlari</span>
+        <h2 class="section-title">Matolar va Xususiyatlar</h2>
+        <p class="section-subtitle">
+          Biz faqat eng yaxshi xomashyolardan foydalanamiz, bu esa uzoq muddatli chidamlilik va yoqimli teginish hissini ta'minlaydi.
+        </p>
+      </div>
+
+      <div class="specs-container">
+        <div class="specs-grid">
+          <!-- Spec 1 -->
+          <div class="spec-box">
+            <h4>
+              <span style="color: var(--primary);">👕</span> On Performance Futbolkasi
+            </h4>
+            <ul class="spec-list">
+              <li>
+                <span class="title">Mato tarkibi:</span>
+                <span class="val">88% Poliamid, 12% Elastan</span>
+              </li>
+              <li>
+                <span class="title">Texnologiya:</span>
+                <span class="val">Dry-Fit QuickDry</span>
+              </li>
+              <li>
+                <span class="title">Bichimi:</span>
+                <span class="val">Erkin atletik qolip</span>
+              </li>
+              <li>
+                <span class="title">Mavsum:</span>
+                <span class="val">Bahor / Yoz / Zal</span>
+              </li>
+              <li>
+                <span class="title">Kelib chiqishi:</span>
+                <span class="val">Turkiya (Premium)</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Spec 2 -->
+          <div class="spec-box">
+            <h4>
+              <span style="color: var(--secondary);">👖</span> Chino Drawstring Shim
+            </h4>
+            <ul class="spec-list">
+              <li>
+                <span class="title">Mato tarkibi:</span>
+                <span class="val">96% Paxta, 4% Spandeks</span>
+              </li>
+              <li>
+                <span class="title">Turi:</span>
+                <span class="val">Smart-Casual Chino</span>
+              </li>
+              <li>
+                <span class="title">Kamar uslubi:</span>
+                <span class="val">Elastik tasma bilan</span>
+              </li>
+              <li>
+                <span class="title">Chidamlilik:</span>
+                <span class="val">Rang o'chmas va cho'ziluvchan</span>
+              </li>
+              <li>
+                <span class="title">Mavsum:</span>
+                <span class="val">To'rt fasl</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Spec 3 -->
+          <div class="spec-box">
+            <h4>
+              <span style="color: var(--accent-gold);">👔</span> Royal Navy Kostyum
+            </h4>
+            <ul class="spec-list">
+              <li>
+                <span class="title">Mato tarkibi:</span>
+                <span class="val">80% Jun (Wool), 20% Ipak</span>
+              </li>
+              <li>
+                <span class="title">Astar:</span>
+                <span class="val">100% Nafis Viskosa</span>
+              </li>
+              <li>
+                <span class="title">Tugmalari:</span>
+                <span class="val">Shoxsimon tabiiy tugmalar</span>
+              </li>
+              <li>
+                <span class="title">Detallar:</span>
+                <span class="val">Binafsharang ipak ro'molcha</span>
+              </li>
+              <li>
+                <span class="title">Tikuv:</span>
+                <span class="val">Italiya texnologiyasi</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Reviews -->
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Xaridorlar fikri</span>
+        <h2 class="section-title">Mijozlarimiz Nima Deydi?</h2>
+        <p class="section-subtitle">
+          Bizning kiyimlarimizni tanlagan va kundalik hayotida foydalanayotgan yurtdoshlarimiz taassurotlari.
+        </p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">
+            "Kostyumni buyurtma qilgandim, matosi va bichimi juda ajoyib chiqdi. Ro'molchasigacha o'ylab ishlangan. Kuryer o'lchab ko'rishimni sabr bilan kutdi. Rahmat!"
+          </p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">JS</div>
+            <div class="reviewer-info">
+              <h5>Jasur Samadov</h5>
+              <p>Tadbirkor, Toshkent</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">
+            "Futbolka va shimni birga oldim. Futbolkasi sportda terlatmaydi, juda yengil. Shimi esa ofisga ham, ko'chaga ham juda qulay va zamonaviy ko'rinadi."
+          </p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">BK</div>
+            <div class="reviewer-info">
+              <h5>Bekzod Karimov</h5>
+              <p>IT Mutaxassis, Samarqand</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">
+            "To'liq 'Total Look' to'plamini chegirma bilan xarid qildim. 3 kunda Buxoroga yetkazib berishdi. Sifatiga gap yo'q, xuddi suratlardagidek original!"
+          </p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">OM</div>
+            <div class="reviewer-info">
+              <h5>Otabek Mirzayev</h5>
+              <p>Menejer, Buxoro</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="newsletter-card">
+        <h3>10% Maxsus Chegirmaga Ega Bo'ling</h3>
+        <p>Telefon raqamingiz yoki elektron pochtangizni qoldiring va birinchi xaridingiz uchun promo-kodni qo'lga kiriting.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="text" class="newsletter-input" placeholder="+998 (__) ___ - __ - __" required>
+          <button type="submit" class="btn-primary" style="padding: 14px 28px;">
+            <span>Yuborish</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-main" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="logo-icon-box">
+              <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <div class="logo-text">
+              <span>AZURE</span>
+              <span class="logo-sub">ATELIER</span>
+            </div>
+          </div>
+          <p>
+            Zamonaviy erkaklar uchun yuqori did, beqiyos qulaylik va eng oliy darajadagi kiyinish madaniyatini taklif etamiz.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Bo'limlar</h4>
+          <div class="footer-links">
+            <a href="#hero">Bosh sahifa</a>
+            <a href="#catalog">Kolleksiya</a>
+            <a href="#bundle">Total Look To'plam</a>
+            <a href="#specs">Mato va Sifat</a>
+            <a href="#reviews">Mijozlar fikrlari</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Mijozlar uchun</h4>
+          <div class="footer-links">
+            <a href="#">Yetkazib berish shartlari</a>
+            <a href="#">O'lchamlarni aniqlash</a>
+            <a href="#">Qaytarish va almashtirish</a>
+            <a href="#">Maxfiylik siyosati</a>
+            <a href="#">To'lov usullari</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Bog'lanish</h4>
+          <div class="contact-info-list">
+            <div class="contact-item">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              <span>Toshkent sh., Amir Temur shox ko'chasi, 45-uy</span>
+            </div>
+            <div class="contact-item">
+              <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24 11.72 11.72 0 003.68.59 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.72 11.72 0 00.59 3.68 1 1 0 01-.24 1.02l-2.23 2.09z"/></svg>
+              <span>+998 (90) 123-45-67</span>
+            </div>
+            <div class="contact-item">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              <span>support@azureatelier.uz</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 AZURE ATELIER. Barcha huquqlar himoyalangan.</p>
+        <p>Premium Men's Fashion Boutique</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Offcanvas Shopping Cart Drawer -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h3>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <path d="M16 10a4 4 0 0 1-8 0"></path>
+        </svg>
+        <span>Savatingiz</span>
+      </h3>
+      <button class="btn-close-cart" id="btnCloseCart" aria-label="Close cart">✕</button>
+    </div>
+
+    <div class="cart-body" id="cartItemsList">
+      <!-- Items dynamically injected via JS -->
+      <div class="cart-empty-state" id="cartEmptyState">
+        <svg viewBox="0 0 24 24">
+          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+        </svg>
+        <p>Savatingiz hozircha bo'sh</p>
+        <button class="btn-primary" style="margin-top: 16px; padding: 10px 20px;" onclick="closeCart()">Kolleksiyaga o'tish</button>
+      </div>
+    </div>
+
+    <div class="cart-footer" id="cartFooter" style="display: none;">
+      <div class="cart-summary-row">
+        <span>Mahsulotlar soni:</span>
+        <span id="cartTotalItemsCount">0 dona</span>
+      </div>
+      <div class="cart-summary-row">
+        <span>Yetkazib berish:</span>
+        <span style="color: var(--accent-emerald); font-weight: 700;">Bepul</span>
+      </div>
+      <div class="cart-summary-row total-row">
+        <span>Jami summa:</span>
+        <span class="total-amount" id="cartTotalSum">0 UZS</span>
+      </div>
+      <button class="btn-checkout" id="btnOpenCheckout">
+        <span>Buyurtmani rasmiylashtirish</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Quick View Modal -->
+  <div class="modal-backdrop" id="quickViewModal">
+    <div class="modal-window">
+      <button class="modal-close-btn" id="btnCloseModal" aria-label="Yopish">✕</button>
+      <div class="modal-content-grid" id="modalProductContent">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Checkout Modal -->
+  <div class="modal-backdrop" id="checkoutModal">
+    <div class="modal-window" style="max-width: 580px;">
+      <button class="modal-close-btn" id="btnCloseCheckout" aria-label="Yopish">✕</button>
+      <div class="checkout-form-box">
+        <h3>Buyurtmani Rasmiylashtirish</h3>
+        <p>Ma'lumotlaringizni kiriting, menejerimiz tez orada siz bilan bog'lanadi.</p>
+
+        <form id="orderForm">
+          <div class="form-group">
+            <label class="form-label" for="customerName">Ism va Familiyangiz</label>
+            <input type="text" id="customerName" class="form-control" placeholder="Masalan: Sardor Aliyev" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="customerPhone">Telefon raqamingiz</label>
+            <input type="tel" id="customerPhone" class="form-control" placeholder="+998 (__) ___ - __ - __" required value="+998 ">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="customerAddress">Yetkazib berish manzili</label>
+            <input type="text" id="customerAddress" class="form-control" placeholder="Shahar, tuman, ko'cha, xonadon" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">To'lov usulini tanlang:</label>
+            <div class="payment-methods-grid">
+              <div class="payment-method-card selected" data-method="Click">
+                💳 Click
+              </div>
+              <div class="payment-method-card" data-method="Payme">
+                💳 Payme
+              </div>
+              <div class="payment-method-card" data-method="Naqd">
+                💵 Naqd / Qabulda
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-summary-row total-row" style="margin-bottom: 20px;">
+            <span>To'lov summasi:</span>
+            <span class="total-amount" id="checkoutFinalAmount">0 UZS</span>
+          </div>
+
+          <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">
+            <span>Buyurtmani Tasdiqlash</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Interactive JavaScript Logic -->
+  <script>
+    // Product Data Store
+    const productsData = {
+      1: {
+        id: 1,
+        title: "On Performance Sport Futbolkasi",
+        category: "Sport & Casual",
+        price: 380000,
+        oldPrice: 450000,
+        rating: 4.9,
+        reviewsCount: 128,
+        img: "images/tshirt.png",
+        sizes: ["S", "M", "L", "XL", "XXL"],
+        selectedSize: "M",
+        desc: "Maxsus mikrofibra va elastan aralashmasidan tayyorlangan nafas oluvchi sport futbolkasi. Jismoniy mashg'ulotlar, yugurish va kundalik faol hayot tarzi uchun ideal tanlov. Terlashni oldini oladi va qulay harakat erkinligini ta'minlaydi."
+      },
+      2: {
+        id: 2,
+        title: "Navy Chino Drawstring Shim",
+        category: "Smart Casual",
+        price: 520000,
+        oldPrice: 620000,
+        rating: 5.0,
+        reviewsCount: 94,
+        img: "images/pants.png",
+        sizes: ["30", "32", "34", "36", "38"],
+        selectedSize: "32",
+        desc: "Premium darajadagi tabiiy paxta matosidan tikilgan zamonaviy chino shimi. Elastik belbog' va bog'ichli tasma orqali qomatga moslashishi nihoyatda oson. Ofis, uchrashuvlar hamda sayohatlar uchun mukammal shinamlik."
+      },
+      3: {
+        id: 3,
+        title: "Royal Navy Slim-Fit Klassik Kostyum",
+        category: "Klassik & Rasmiy",
+        price: 1450000,
+        oldPrice: 1800000,
+        rating: 5.0,
+        reviewsCount: 215,
+        img: "images/suit.png",
+        sizes: ["48", "50", "52", "54", "56"],
+        selectedSize: "50",
+        desc: "Yuqori sifatli tabiiy jun gazlamadan ishlangan tantanavor va nufuzli kostyum. Ko'krak cho'ntagidagi binafsharang nafis ro'molcha, shohona astar va mukammal Italiya bichimi sizning nufuzingizni namoyon etadi."
+      }
+    };
+
+    // State
+    let cart = [];
+    let wishlist = new Set();
+
+    // Utility: Format currency in Uzbek So'm
+    function formatMoney(amount) {
+      return new Intl.NumberFormat('uz-UZ').format(amount) + ' UZS';
+    }
+
+    // Show Toast
+    function showToast(message, icon = '✓') {
+      const container = document.getElementById('toastContainer');
+      const toast = document.createElement('div');
+      toast.className = 'toast';
+      toast.innerHTML = `
+        <span class="toast-icon">${icon}</span>
+        <span>${message}</span>
+      `;
+      container.appendChild(toast);
+
+      // Trigger animation
+      requestAnimationFrame(() => toast.classList.add('show'));
+
+      setTimeout(() => {
+        toast.classList.remove('show');
+        setTimeout(() => toast.remove(), 400);
+      }, 3000);
+    }
+
+    // Size Selector Selection Logic
+    document.querySelectorAll('.size-selector').forEach(selector => {
+      selector.addEventListener('click', (e) => {
+        if (e.target.classList.contains('size-pill')) {
+          const productId = selector.getAttribute('data-product');
+          selector.querySelectorAll('.size-pill').forEach(btn => btn.classList.remove('selected'));
+          e.target.classList.add('selected');
+          if (productsData[productId]) {
+            productsData[productId].selectedSize = e.target.textContent.trim();
+          }
+        }
+      });
+    });
+
+    // Filter Tabs Logic
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const productCards = document.querySelectorAll('.product-card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-filter');
+
+        productCards.forEach(card => {
+          const category = card.getAttribute('data-category');
+          if (filter === 'all' || category === filter) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Wishlist Buttons
+    document.querySelectorAll('.btn-fav-toggle').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const id = btn.getAttribute('data-id');
+        if (wishlist.has(id)) {
+          wishlist.delete(id);
+          btn.classList.remove('active-fav');
+          showToast("Sevimlilardan o'chirildi");
+        } else {
+          wishlist.add(id);
+          btn.classList.add('active-fav');
+          showToast("Sevimlilar ro'yxatiga qo'shildi! ❤️");
+        }
+        document.getElementById('wishlistCount').textContent = wishlist.size;
+      });
+    });
+
+    // Cart Drawer Controls
+    const cartOverlay = document.getElementById('cartOverlay');
+    const cartDrawer = document.getElementById('cartDrawer');
+    const btnCart = document.getElementById('btnCart');
+    const btnCloseCart = document.getElementById('btnCloseCart');
+
+    function openCart() {
+      cartOverlay.classList.add('active');
+      cartDrawer.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeCart() {
+      cartOverlay.classList.remove('active');
+      cartDrawer.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    btnCart.addEventListener('click', openCart);
+    btnCloseCart.addEventListener('click', closeCart);
+    cartOverlay.addEventListener('click', closeCart);
+
+    // Add to cart function
+    function addToCart(productId, size = null) {
+      const item = productsData[productId];
+      if (!item) return;
+
+      const chosenSize = size || item.selectedSize || item.sizes[0];
+      const cartItemId = `${productId}-${chosenSize}`;
+      const existing = cart.find(ci => ci.cartItemId === cartItemId);
+
+      if (existing) {
+        existing.qty += 1;
+      } else {
+        cart.push({
+          cartItemId,
+          id: item.id,
+          title: item.title,
+          price: item.price,
+          img: item.img,
+          size: chosenSize,
+          qty: 1
+        });
+      }
+
+      updateCartUI();
+      showToast(`${item.title} (${chosenSize}) savatga qo'shildi! 🛍️`);
+      openCart();
+    }
+
+    // Bind all Add-to-cart buttons
+    document.querySelectorAll('.btn-add-cart').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.getAttribute('data-id');
+        addToCart(id);
+      });
+    });
+
+    // Buy Complete Bundle Button
+    document.getElementById('btnBuyBundle').addEventListener('click', () => {
+      // Add all 3 with 15% discounted bundle rate or individually
+      addToCart(1, "M");
+      addToCart(2, "32");
+      addToCart(3, "50");
+      showToast("3 ta mahsulotdan iborat to'liq Look savatga qo'shildi! ✨");
+    });
+
+    // Update Cart UI
+    function updateCartUI() {
+      const cartItemsList = document.getElementById('cartItemsList');
+      const cartEmptyState = document.getElementById('cartEmptyState');
+      const cartFooter = document.getElementById('cartFooter');
+      const cartCount = document.getElementById('cartCount');
+      const cartTotalSum = document.getElementById('cartTotalSum');
+      const cartTotalItemsCount = document.getElementById('cartTotalItemsCount');
+
+      const totalItems = cart.reduce((acc, cur) => acc + cur.qty, 0);
+      cartCount.textContent = totalItems;
+
+      if (cart.length === 0) {
+        cartItemsList.innerHTML = '';
+        cartItemsList.appendChild(cartEmptyState);
+        cartEmptyState.style.display = 'block';
+        cartFooter.style.display = 'none';
+        return;
+      }
+
+      cartEmptyState.style.display = 'none';
+      cartFooter.style.display = 'block';
+
+      let html = '';
+      let totalAmount = 0;
+
+      cart.forEach((item, index) => {
+        const itemTotal = item.price * item.qty;
+        totalAmount += itemTotal;
+
+        html += `
+          <div class="cart-item">
+            <div class="cart-item-thumb">
+              <img src="${item.img}" alt="${item.title}">
+            </div>
+            <div class="cart-item-info">
+              <h4>${item.title}</h4>
+              <div class="cart-item-meta">O'lcham: <strong>${item.size}</strong></div>
+              <div class="cart-item-bottom">
+                <div class="cart-qty-control">
+                  <button class="qty-btn" onclick="changeQty(${index}, -1)">−</button>
+                  <span class="qty-val">${item.qty}</span>
+                  <button class="qty-btn" onclick="changeQty(${index}, 1)">+</button>
+                </div>
+                <div class="cart-item-price">${formatMoney(itemTotal)}</div>
+                <button class="cart-item-remove" onclick="removeCartItem(${index})" title="O'chirish">
+                  ✕
+                </button>
+              </div>
+            </div>
+          </div>
+        `;
+      });
+
+      cartItemsList.innerHTML = html;
+      cartTotalSum.textContent = formatMoney(totalAmount);
+      cartTotalItemsCount.textContent = `${totalItems} dona`;
+      document.getElementById('checkoutFinalAmount').textContent = formatMoney(totalAmount);
+    }
+
+    // Change Qty
+    window.changeQty = function(index, delta) {
+      if (!cart[index]) return;
+      cart[index].qty += delta;
+      if (cart[index].qty <= 0) {
+        cart.splice(index, 1);
+      }
+      updateCartUI();
+    };
+
+    // Remove Item
+    window.removeCartItem = function(index) {
+      if (!cart[index]) return;
+      cart.splice(index, 1);
+      updateCartUI();
+      showToast("Mahsulot savatdan olib tashlandi");
+    };
+
+    // Quick View Modal
+    const quickViewModal = document.getElementById('quickViewModal');
+    const modalProductContent = document.getElementById('modalProductContent');
+    const btnCloseModal = document.getElementById('btnCloseModal');
+
+    function openQuickView(id) {
+      const item = productsData[id];
+      if (!item) return;
+
+      const sizeButtonsHtml = item.sizes.map(s => `
+        <button class="size-pill ${s === item.selectedSize ? 'selected' : ''}" onclick="selectModalSize(${item.id}, '${s}', this)">
+          ${s}
+        </button>
+      `).join('');
+
+      modalProductContent.innerHTML = `
+        <div class="modal-image-box">
+          <img src="${item.img}" alt="${item.title}">
+        </div>
+        <div class="modal-info-box">
+          <span class="product-category" style="margin-bottom: 8px; display: inline-block;">${item.category}</span>
+          <h3>${item.title}</h3>
+          <div class="product-rating" style="margin-bottom: 16px;">
+            ★ ${item.rating} <span>(${item.reviewsCount} ta ijobiy sharh)</span>
+          </div>
+          <p class="modal-desc">${item.desc}</p>
+
+          <div class="product-options-row">
+            <span class="option-label">O'lchamni tanlang:</span>
+            <div class="size-selector">
+              ${sizeButtonsHtml}
+            </div>
+          </div>
+
+          <div style="display: flex; align-items: baseline; gap: 14px; margin-bottom: 24px;">
+            <span class="current-price" style="font-size: 1.6rem;">${formatMoney(item.price)}</span>
+            <span class="old-price" style="font-size: 1rem;">${formatMoney(item.oldPrice)}</span>
+          </div>
+
+          <div style="display: flex; gap: 12px;">
+            <button class="btn-primary" style="flex: 1; justify-content: center;" onclick="addToCart(${item.id}); closeQuickView();">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              <span>Savatga qo'shish</span>
+            </button>
+          </div>
+        </div>
+      `;
+
+      quickViewModal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    window.selectModalSize = function(productId, size, btn) {
+      if (productsData[productId]) {
+        productsData[productId].selectedSize = size;
+      }
+      btn.parentElement.querySelectorAll('.size-pill').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+    };
+
+    function closeQuickView() {
+      quickViewModal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    btnCloseModal.addEventListener('click', closeQuickView);
+    quickViewModal.addEventListener('click', (e) => {
+      if (e.target === quickViewModal) closeQuickView();
+    });
+
+    document.querySelectorAll('.btn-quick-view').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.getAttribute('data-id');
+        openQuickView(id);
+      });
+    });
+
+    // Checkout Modal Logic
+    const checkoutModal = document.getElementById('checkoutModal');
+    const btnOpenCheckout = document.getElementById('btnOpenCheckout');
+    const btnCloseCheckout = document.getElementById('btnCloseCheckout');
+    const orderForm = document.getElementById('orderForm');
+
+    btnOpenCheckout.addEventListener('click', () => {
+      closeCart();
+      checkoutModal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    });
+
+    function closeCheckout() {
+      checkoutModal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    btnCloseCheckout.addEventListener('click', closeCheckout);
+    checkoutModal.addEventListener('click', (e) => {
+      if (e.target === checkoutModal) closeCheckout();
+    });
+
+    // Payment method selection
+    document.querySelectorAll('.payment-method-card').forEach(card => {
+      card.addEventListener('click', () => {
+        document.querySelectorAll('.payment-method-card').forEach(c => c.classList.remove('selected'));
+        card.classList.add('selected');
+      });
+    });
+
+    // Order Submit Handler
+    orderForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('customerName').value.trim();
+      const phone = document.getElementById('customerPhone').value.trim();
+      const address = document.getElementById('customerAddress').value.trim();
+      const method = document.querySelector('.payment-method-card.selected').getAttribute('data-method');
+
+      closeCheckout();
+      cart = [];
+      updateCartUI();
+
+      showToast(`Rahmat, ${name}! Buyurtmangiz qabul qilindi. Tez orada operatorimiz siz bilan bog'lanadi. 🎉`, '⭐');
+      orderForm.reset();
+      document.getElementById('customerPhone').value = "+998 ";
+    });
+
+    // Newsletter Form
+    document.getElementById('newsletterForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      showToast("10% chegirma promo-kodingiz qabul qilindi! Rahmat. 🎉");
+      e.target.reset();
+    });
+
+    // Mobile Navigation Toggle
+    const mobileToggle = document.getElementById('mobileToggle');
+    const navMenu = document.getElementById('navMenu');
+
+    mobileToggle.addEventListener('click', () => {
+      if (navMenu.style.display === 'flex') {
+        navMenu.style.display = 'none';
+      } else {
+        navMenu.style.display = 'flex';
+        navMenu.style.flexDirection = 'column';
+        navMenu.style.position = 'absolute';
+        navMenu.style.top = '80px';
+        navMenu.style.left = '0';
+        navMenu.style.right = '0';
+        navMenu.style.background = '#0e131f';
+        navMenu.style.padding = '24px';
+        navMenu.style.borderBottom = '1px solid var(--border-subtle)';
+      }
+    });
+
+    // Smooth Scroll Active Link Observer
+    const sections = document.querySelectorAll('section[id], footer[id]');
+    window.addEventListener('scroll', () => {
+      const scrollPos = window.scrollY + 100;
+      sections.forEach(sec => {
+        const top = sec.offsetTop;
+        const height = sec.offsetHeight;
+        const id = sec.getAttribute('id');
+        if (scrollPos >= top && scrollPos < top + height) {
+          document.querySelectorAll('.nav-link').forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${id}`) {
+              link.classList.add('active');
+            }
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
